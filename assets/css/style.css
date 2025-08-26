@@ -1774,7 +1774,7 @@ p.expert-endorsement__disclaimer {
 /* //////////////////////////////////////////////////////////////////////////////////// */
 .footer {
   background-color: #fff;
-  padding: 40px 20px;
+  padding: 40px 20px 180px 20px;
   text-align: center;
 }
 .footer__social {
@@ -2759,7 +2759,7 @@ p.expert-endorsement__disclaimer {
     /* transform: translateX(25%); */
   }
   .user-voice__card {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
   }
   .user-voice__card-title {
     font-size: 1rem;
@@ -2769,6 +2769,7 @@ p.expert-endorsement__disclaimer {
     line-height: 1.8;
     min-width: 220px;
     max-width: 220px;
+    margin: 0 auto;
   }
   /* .user-voice__swiper-pagination .swiper-pagination-bullet { */
   .user-voice__pagination .swiper-pagination-bullet {
