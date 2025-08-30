@@ -27,18 +27,23 @@
       <div class="swiper main-visual__swiper">
         <div class="swiper-wrapper main-visual__slideshow">
           <div class="swiper-slide main-visual__slide">
-            <img src="./assets/img/main-visual__slide1.png" alt="リフレッシュビート製品とアタッチメント">
+            <img src="./assets/img/main-visual__slide1.png" alt="リフレッシュビート製品とアタッチメント" sizes="100vw"
+            fetchpriority="high">
           </div>
           <div class="swiper-slide main-visual__slide">
-            <img src="./assets/img/main-visual__slide2.png" alt="女性がソファでリフレッシュビートを使っている様子">
+            <img src="./assets/img/main-visual__slide1.png" alt="女性がソファでリフレッシュビートを使っている様子">
           </div>
           <div class="swiper-slide main-visual__slide">
-            <img src="./assets/img/main-visual__slide3.png" alt="女性がオフィスでリフレッシュビートを使っている様子">
+            <img src="./assets/img/main-visual__slide1.png" alt="女性がオフィスでリフレッシュビートを使っている様子">
           </div>
         </div>
-        <div class="main-visual__controls">
+        <!-- <div class="main-visual__controls">
           <div class="swiper-pagination main-visual__pagination"></div>
-        </div>
+        </div> -->
+      </div>
+
+      <div class="main-visual__pagination-out">
+        <div class="swiper-pagination main-visual__pagination"></div>
       </div>
 
       <!-- クーポンポップアップ 左下 -->
@@ -702,6 +707,22 @@
       <img src="./assets/img/elecom-healthcare__logo.png" alt="ELECOM Healthcare">
     </div>
   </footer>
+
+
+  <script>
+    (function () {
+      function setHeaderHeightVar() {
+        const header = document.querySelector('.header');
+        const h = header ? header.offsetHeight : 0;
+        document.documentElement.style.setProperty('--header-h', h + 'px');
+      }
+      // 初期化＆リサイズで更新
+      window.addEventListener('DOMContentLoaded', setHeaderHeightVar);
+      window.addEventListener('load', setHeaderHeightVar);
+      window.addEventListener('resize', setHeaderHeightVar);
+    })();
+  </script>
+
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
