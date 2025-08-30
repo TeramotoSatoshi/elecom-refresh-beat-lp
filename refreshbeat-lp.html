@@ -31,10 +31,10 @@
             fetchpriority="high">
           </div>
           <div class="swiper-slide main-visual__slide">
-            <img src="./assets/img/main-visual__slide1.png" alt="女性がソファでリフレッシュビートを使っている様子">
+            <img src="./assets/img/main-visual__slide2.png" alt="女性がソファでリフレッシュビートを使っている様子">
           </div>
           <div class="swiper-slide main-visual__slide">
-            <img src="./assets/img/main-visual__slide1.png" alt="女性がオフィスでリフレッシュビートを使っている様子">
+            <img src="./assets/img/main-visual__slide3.png" alt="女性がオフィスでリフレッシュビートを使っている様子">
           </div>
         </div>
         <!-- <div class="main-visual__controls">
@@ -743,7 +743,11 @@
           effect: 'fade',
           fadeEffect: { crossFade: true },
           autoplay: { delay: 4000, disableOnInteraction: false },
-          pagination: { el: '.main-visual__pagination', clickable: true },
+          pagination: { 
+            el: '.main-visual__pagination-out .swiper-pagination', 
+            clickable: true,
+            type: 'bullets'
+          },
         });
         
         // 製品PRセクション

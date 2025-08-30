@@ -26,6 +26,7 @@
 /* 基本スタイル */
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -33,6 +34,8 @@ body {
   font-weight: 500;
   color: var(--text-color);
   background-color: var(--gray-200);
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -81,45 +84,49 @@ a {
 .main-visual {
   position: relative;
   width: 100%;
+  max-width: 100vw;
   overflow: hidden;
   background-color: var(--white);
+  aspect-ratio: 1920 / 790;
+  padding-bottom: 310px;
+  margin: 0;
+  /* 高さをアスペクト比で自動調整 */
 }
+
 .main-visual__swiper {
   position: relative;
   width: 100%;
-  /* aspect-ratio: 144/85; */
-
+  max-width: 100vw;
   margin: 0;
   z-index: 0;
-
-  height: calc(100vh - var(--header-h));
-  aspect-ratio: auto !important;
+  aspect-ratio: 1920 / 790;
+  height: auto;
+  min-height: 0;
+  /* 画面サイズが小さい場合の高さ制御 */
 }
+
 .main-visual__slideshow {
   width: 100%;
   height: 100%;
+  aspect-ratio: 1920 / 790;
 }
+
 .main-visual__slide {
   position: relative;
   width: 100%;
   height: 100%;
+  aspect-ratio: 1920 / 790;
 }
+
 .main-visual__slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  aspect-ratio: 1920 / 790;
+  display: block;
 }
 .main-visual__controls {
-  /* position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  z-index: 10; */
-  position: static;  /* ← 上書きでOK */
+  position: static;
   bottom: auto;
   left: auto;
   transform: none;
@@ -150,21 +157,24 @@ a {
   background-color: var(--C34a8c2);
 }
 .main-visual__pagination-out {
-  margin: 40px 0;
+  position: absolute;
+  bottom: 240px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
+  z-index: 5;
 }
-.main-visual__pagination {
-  position: static;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.main-visual__pagination-out .swiper-pagination-bullet-active {
+  background-color: var(--C34a8c2) !important;
+  opacity: 1 !important;
 }
+/* 重複するルールを削除 */
 
 /* クーポンポップアップ全体 */
 .promotion-card {
   position: absolute;
-  top: 70%  ;
+  top: 55%;
   left: 40px;
   transform: translateY(-50%);
   /* width: 29vh; */
@@ -274,7 +284,7 @@ a {
 
 /* 製品バナーセクション */
 .product-banner {
-  position: fixed;
+  position: fixed; /* ← これがポイント */
   box-sizing: border-box;
   bottom: 0;
   left: 0;
