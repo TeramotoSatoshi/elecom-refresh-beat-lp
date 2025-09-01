@@ -90,40 +90,55 @@ a {
   aspect-ratio: 1920 / 790;
   padding-bottom: 310px;
   margin: 0;
-  /* 高さをアスペクト比で自動調整 */
 }
 
 .main-visual__swiper {
   position: relative;
   width: 100%;
-  max-width: 100vw;
+  height: 100%;
   margin: 0;
   z-index: 0;
-  aspect-ratio: 1920 / 790;
-  height: auto;
-  min-height: 0;
-  /* 画面サイズが小さい場合の高さ制御 */
 }
 
 .main-visual__slideshow {
   width: 100%;
   height: 100%;
-  aspect-ratio: 1920 / 790;
 }
 
 .main-visual__slide {
   position: relative;
   width: 100%;
   height: 100%;
-  aspect-ratio: 1920 / 790;
 }
 
 .main-visual__slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  aspect-ratio: 1920 / 790;
   display: block;
+}
+
+/* SP用レイアウト調整 */
+@media (max-width: 768px) {
+  .main-visual {
+    aspect-ratio: auto;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  
+  .main-visual__swiper {
+    height: auto;
+  }
+  
+  .main-visual__slide {
+    height: auto;
+  }
+  
+  .main-visual__slide img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
 }
 .main-visual__controls {
   position: static;
@@ -145,7 +160,7 @@ a {
 }
 .main-visual__pagination .swiper-pagination-bullet {
   display: inline-block;
-  width: 100px;
+  width: 400px;
   height: 15px;
   background-color: var(--CCCCCC);
   border-radius: 2.5px;
@@ -158,7 +173,7 @@ a {
 }
 .main-visual__pagination-out {
   position: absolute;
-  bottom: 240px;
+  bottom: 260px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -169,16 +184,11 @@ a {
   background-color: var(--C34a8c2) !important;
   opacity: 1 !important;
 }
-/* 重複するルールを削除 */
-
-/* クーポンポップアップ全体 */
 .promotion-card {
   position: absolute;
   top: 55%;
   left: 40px;
   transform: translateY(-50%);
-  /* width: 29vh; */
-  /* min-height: 295px; */
   height: 290px;
   min-width: 420px;
   max-width: 470px;
@@ -1847,6 +1857,8 @@ p.expert-endorsement__disclaimer {
   .header {
     gap: 1rem;
     padding: 1rem;
+    height: 60px;
+
   }
   .header__logo {
     margin-left: 0;
@@ -1875,7 +1887,12 @@ p.expert-endorsement__disclaimer {
   .main-visual__controls {
     bottom: 5px;
   }
-
+  .main-visual__pagination-out {
+    bottom: 380px;
+  }
+  .main-visual__pagination-out .swiper-pagination-bullet-active {
+  }
+  
   
   /* クーポンポップアップ全体 */
   
@@ -1886,7 +1903,7 @@ p.expert-endorsement__disclaimer {
     max-width: 300px;
     height: auto;
     min-width: 0;
-    margin: 1rem auto;
+    margin: 2rem auto 1rem auto;
     padding: 1rem 1rem;
     gap: 0.5rem;
     box-shadow: none;
