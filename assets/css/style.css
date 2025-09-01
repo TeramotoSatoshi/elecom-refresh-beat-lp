@@ -468,7 +468,8 @@ a {
 }
 
 .product-details__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   gap: 4rem;
@@ -507,7 +508,7 @@ a {
 }
 
 .product-details__title {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 42px;
   letter-spacing: 2px;
@@ -660,7 +661,8 @@ a {
 }
 
 .product-info__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -753,7 +755,8 @@ a {
 }
 
 .trouble__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   border-color: none;
   margin: 80px auto 0 auto;
   text-align: center;
@@ -776,7 +779,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.575rem 0;
+  gap:0.175rem 0;
   padding: 2rem;
   box-sizing: border-box;
 }
@@ -786,7 +789,7 @@ a {
   line-height: 70px;
   letter-spacing: 3.2px;
   margin: 0;
-  min-width: 40rem;
+  min-width: 35rem;
   text-align: left;
 }
 
@@ -876,7 +879,8 @@ a {
 }
 
 .feature-showcase__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -1018,7 +1022,8 @@ a {
 }
 
 .howto__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -1493,7 +1498,8 @@ p.expert-endorsement__disclaimer {
 }
 
 .muscle-care__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -1608,7 +1614,8 @@ p.expert-endorsement__disclaimer {
 }
 
 .product__container {
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -1789,7 +1796,7 @@ p.expert-endorsement__disclaimer {
 }
 
 .user-voice__slider {
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0 180px 30px 190px;
   overflow: hidden;
   margin: 0 auto;
@@ -1993,41 +2000,21 @@ p.expert-endorsement__disclaimer {
   border-top: 1px solid #ccc;
   margin: 0 auto 30px;
   width: 100%;
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
 }
 
 .footer__logo {
   text-align: left;
   padding-left: 20px;
-  max-width: 1350px;
+  /* max-width: 1350px; */
+  max-width: 1280px;
   margin: 0 auto;
 }
 
 .footer__logo img {
   width: 200px;
   height: auto;
-}
-
-@media (max-width: 768px) {
-  .main-visual {
-    aspect-ratio: auto;
-    padding-bottom: 80px;
-    height: auto;
-  }
-
-  .main-visual__swiper {
-    height: auto;
-  }
-
-  .main-visual__slide {
-    height: auto;
-  }
-
-  .main-visual__slide img {
-    object-fit: contain;
-    width: 100%;
-    height: auto;
-  }
 }
 
 @media (max-width: 600px) {
@@ -2057,6 +2044,26 @@ p.expert-endorsement__disclaimer {
     padding: 0.6rem 1.5rem;
   }
 
+  .main-visual {
+    aspect-ratio: auto;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .main-visual__swiper {
+    height: auto;
+  }
+
+  .main-visual__slide {
+    height: auto;
+  }
+
+  .main-visual__slide img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+
   .main-visual__pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -2068,7 +2075,7 @@ p.expert-endorsement__disclaimer {
   }
 
   .main-visual__pagination-out {
-    bottom: 380px;
+    bottom: 320px;
   }
 
   .promotion-card {
