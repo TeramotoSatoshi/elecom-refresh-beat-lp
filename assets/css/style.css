@@ -173,8 +173,9 @@ a {
 
 .promotion-card {
   position: absolute;
-  top: 55%;
-  left: 40px;
+  /* top: 55%; */
+  bottom: 20%;
+  left: 1.5%;
   transform: translateY(-50%);
   height: 290px;
   min-width: 420px;
@@ -183,7 +184,7 @@ a {
   background-color: var(--primary-color-purchase);
   backdrop-filter: blur(5px);
   border-radius: 16px;
-  padding: 1rem 2.5rem;
+  padding: 0.5rem 1.5rem;
   color: var(--white);
   font-family: sans-serif;
   z-index: 10;
@@ -2017,7 +2018,7 @@ p.expert-endorsement__disclaimer {
   height: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   body {
     min-width: 100%;
   }
