@@ -7,7 +7,11 @@
   }
   window.addEventListener('DOMContentLoaded', setHeaderHeightVar);
   window.addEventListener('load', setHeaderHeightVar);
-  window.addEventListener('resize', setHeaderHeightVar);
+  let resizeTimeout;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setHeaderHeightVar, 100);
+  });
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
