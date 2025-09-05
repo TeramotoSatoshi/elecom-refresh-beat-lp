@@ -168,6 +168,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  setupSwiperCarousels();
-  setupVideoPlayer();
+  // Initialize all components
+  const initComponents = () => {
+    setupSwiperCarousels();
+    setupVideoPlayer();
+  };
+  
+  initComponents();
 });

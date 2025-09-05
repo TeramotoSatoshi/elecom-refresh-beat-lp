@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\js/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\js/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\js/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)",
+      "Read(/C:\\pg\\elecom-healthcare\\Git\\refresh-beat-lp\\assets\\css/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -4,7 +4,6 @@
   --primary-color-purchase: #278cc5;
   --text-color: #231815;
   --text-yellow: #EFEA3A;
-  --text-light: #555;
   --border-color: #e0e0e0;
   --gray-800: #58595A;
   --gray-300: #d9d9d9;
@@ -15,11 +14,10 @@
   --black: #000000;
   --danger-color: #f82b18;
   --accent-blue: #34a8c2;
-  --text-dark: #333;
   --text-medium: #555;
-  --text-muted: #888;
   --border-light: #ccc;
   --header-h: 0px;
+  --container-width: 1280px;
 }
 
 html {
@@ -469,8 +467,7 @@ a {
 }
 
 .product-details__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
   display: flex;
   gap: 4rem;
@@ -662,8 +659,7 @@ a {
 }
 
 .product-info__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
 }
 
@@ -756,8 +752,7 @@ a {
 }
 
 .trouble__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   border-color: none;
   margin: 80px auto 0 auto;
   text-align: center;
@@ -880,8 +875,7 @@ a {
 }
 
 .feature-showcase__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
 }
 
@@ -1023,8 +1017,7 @@ a {
 }
 
 .howto__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
 }
 
@@ -1499,8 +1492,7 @@ p.expert-endorsement__disclaimer {
 }
 
 .muscle-care__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -1520,7 +1512,7 @@ p.expert-endorsement__disclaimer {
 
 .muscle-care__header p {
   font-size: 1.3rem;
-  color: var(--text-light);
+  color: var(--text-medium);
   line-height: 1.4;
   letter-spacing: 0.2em;
 }
@@ -1615,8 +1607,7 @@ p.expert-endorsement__disclaimer {
 }
 
 .product__container {
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
 }
 
@@ -2001,21 +1992,58 @@ p.expert-endorsement__disclaimer {
   border-top: 1px solid #ccc;
   margin: 0 auto 30px;
   width: 100%;
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
 }
 
 .footer__logo {
   text-align: left;
   padding-left: 20px;
-  /* max-width: 1350px; */
-  max-width: 1280px;
+  max-width: var(--container-width);
   margin: 0 auto;
 }
 
 .footer__logo img {
   width: 200px;
   height: auto;
+}
+
+@media (max-width: 1024px) {
+  .promotion-card {
+    min-width: 350px;
+    max-width: 400px;
+  }
+  
+  .product-details__container {
+    gap: 2rem;
+  }
+  
+  .feature-showcase__point {
+    gap: 2rem;
+  }
+  
+  .expert-endorsement__content {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-showcase__point,
+  .feature-showcase__point--reverse {
+    flex-direction: column;
+  }
+  
+  .product-info__cards {
+    gap: 1rem;
+  }
+  
+  .muscle-care__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .expert-endorsement__content {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 840px) {
