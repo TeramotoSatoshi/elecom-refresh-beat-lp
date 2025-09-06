@@ -90,7 +90,7 @@ a {
   max-width: 100vw;
   overflow: hidden;
   background-color: var(--white);
-  aspect-ratio: 1920 / 790;
+  aspect-ratio: 1920 / 820;
   padding-bottom: 310px;
   margin: 0;
 }
