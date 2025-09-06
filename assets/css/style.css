@@ -672,8 +672,7 @@ a {
 .product-info__title p {
   font-size: 2rem;
   line-height: 60px;
-  letter-spacing: 6.5px;
-  font-weight: 500;
+  letter-spacing: 6.4px;
   margin: 0 0 50px 0;
 }
 
@@ -854,16 +853,15 @@ a {
 }
 
 .trouble__desc .medium-text_36px {
-  font-weight: 400;
-  font-size: 2.25rem;
-  line-height: 1.38;
-  letter-spacing: 30px;
+  font-weight: 400;        /* Regular */
+  font-size: 2.25rem;      /* 36px */
+  letter-spacing: 0.3em;   /* 30% = 10.8px @36px */
 }
 
 .trouble__desc .large-text_48px {
   font-size: 3rem;
-  line-height: 1.67;
-  letter-spacing: 30px;
+  line-height: 1.6667;
+  letter-spacing: 0.3em;
 }
 
 .feature-showcase {
@@ -887,19 +885,21 @@ a {
 }
 
 .feature-showcase__sub-heading {
-  font-size: 2.125rem;
-  line-height: 50px;
-  letter-spacing: 12px;
+  font-size: 2.5rem;      /* 40px */
+  line-height: 1.2;       /* = 100px / 40px（%指定なら 1.0 に） */
+  letter-spacing: 0.3em;  /* 30% = 12px @40px */
 }
 
 .feature-showcase__heading {
-  font-size: 4rem;
-  line-height: 100px;
+  font-size: 5rem;       /* 80px = 80/16 */
+  line-height: 1.6;     /* 100px / 80px = 1.25（単位なし推奨） */
+  letter-spacing: 0.2em; /* 20% = 0.2em（= 16px @80px） */
 }
 
 .feature-showcase__medium {
-  font-size: 2.125rem;
-  letter-spacing: 8px;
+  line-height: 2.5;     /* = 100 / 40 */
+  font-size: 2.5rem;    /* 40px */
+  letter-spacing: 0.2em; /* 20% = 8px @40px（px固定なら 8px） */
 }
 
 .feature-showcase__refresh-beat {
@@ -1414,24 +1414,24 @@ a {
 }
 
 .expert-endorsement__text h2 {
+  font-weight: 700;
   font-size: 2.25rem;
-  font-weight: 800;
+  line-height: 1.667;
+  letter-spacing: 0.1em;
   margin-bottom: 1.2em;
-  line-height: 60px;
-  letter-spacing: 7.2px;
 }
 
 .expert-endorsement__text p {
-  font-size: 1.31rem;
-  line-height: 1.9;
-  letter-spacing: 4.2;
+  font-size: 1.3125rem;
+  line-height: 1.905;
+  letter-spacing: 0.2em;
 }
 
 p.expert-endorsement__disclaimer {
-  font-size: 0.93rem;
-  margin-top: 1rem;
-  line-height: 2.7;
+  font-size: 0.9375rem;
+  line-height: 2.667;
   letter-spacing: 0.2em;
+  margin-top: 1rem;
 }
 
 .expert-endorsement__profile {
@@ -1514,9 +1514,9 @@ p.expert-endorsement__disclaimer {
 }
 
 .muscle-care__header p {
-  font-size: 1.3rem;
-  color: var(--text-light);
-  line-height: 1.4;
+  color: black;
+  font-size: 1.3125rem;
+  line-height: 1.429;
   letter-spacing: 0.2em;
 }
 
