@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELECOM Healthcare REFRESH BEAT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./assets/img/elecom-healthcare__logo.png" alt="ELECOM Healthcare ロゴ" class="header__logo">
+    <div class="header__actions">
+      <a href="https://shop.elecom.co.jp/login.html" class="header__button">ログイン／会員登録</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-visual">
+      <div class="swiper main-visual__swiper">
+        <div class="swiper-wrapper main-visual__slideshow">
+          <div class="swiper-slide main-visual__slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/img/main-visual__slide1-sp.png">
+              <img src="./assets/img/main-visual__slide1.png" alt="リフレッシュビート製品とアタッチメント" sizes="100vw" fetchpriority="high">
+            </picture>
+          </div>
+          <div class="swiper-slide main-visual__slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/img/main-visual__slide2-sp.png">
+              <img src="./assets/img/main-visual__slide2.png" alt="女性がソファでリフレッシュビートを使っている様子">
+            </picture>
+          </div>
+          <div class="swiper-slide main-visual__slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/img/main-visual__slide3-sp.png">
+              <img src="./assets/img/main-visual__slide3.png" alt="女性がオフィスでリフレッシュビートを使っている様子">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-visual__pagination-out">
+        <div class="swiper-pagination main-visual__pagination"></div>
+      </div>
+
+      <div class="promotion-card">
+        <div class="promotion-card__header">
+          <span class="promotion-card__tag">期間限定特別セール</span>
+          <span class="promotion-card__date">0.00 <span class="promotion-card__day">(THU)</span>
+            <span class="promotion-card__arrow"><img src="./assets/img/promotion-card__arrow-white.png" alt=""></span>0.00 <span class="promotion-card__day">(THU)</span>
+          </span>
+        </div>
+        <div class="promotion-card__content">
+          <div class="promotion-card__description">
+            今なら<br>ELECOM Healthcare<br>リフレッシュビートが
+          </div>
+          <div class="promotion-card__discount">
+            <span class="promotion-card__number">40</span><span class="promotion-card__unit"><span class="promotion-card__per">%</span><br><span class="promotion-card__off">off</span></span>
+          </div>
+        </div>
+        <div class="promotion-card__coupon-box">
+          <span class="promotion-card__coupon-label">クーポンコード</span>
+          <span class="promotion-card__arrow"><img src="./assets/img/promotion-card__arrow-white.png" alt=""></span>
+          <div class="promotion-card__code-code">EFSBTR3QV9</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="content-wrapper">
+      <section class="section--bg-white">
+        <div class="product-banner">
+          <div class="product-banner__content">
+            <div class="product-banner__info">
+              <span class="product-banner__brand">&nbsp;ELECOM Healthcare</span>
+              <span class="product-banner__name">リフレッシュビート</span>
+            </div>
+            <div class="product-banner__discount-wrapper">
+              <div class="product-banner__discount">[ <span class="product-banner__discount-bold">40</span><span class="product-banner__discount-light">%off</span> ]</div>
+              <div class="product-banner__pricing">
+                <del class="product-banner__original-price">¥2,680</del>
+                <span class="product-banner__arrow"><img src="./assets/img/promotion-card__arrow-white.png" alt="→"></span>
+                <span class="product-banner__current-price">¥1,608</span>
+                <span class="product-banner__tax-note">(税込)</span>
+              </div>
+            </div>
+            <a href="https://shop.elecom.co.jp/category/HCARE/4549550366632.html" class="product-banner__button">
+              <img src="./assets/img/cart.png" alt="カートアイコン" class="product-banner__cart-icon">
+              購入
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--gray-150">
+        <div id="product-details" class="product-details">
+          <div class="product-details__container">
+            <div class="product-details__gallery">
+              <div class="product-details__main-image-container swiper product-details__main-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main1.png" alt="リフレッシュビート本体"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main2.png" alt="リフレッシュビート本体"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main3.png" alt="リフレッシュビート本体"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main4.png" alt="リフレッシュビート本体"></div>
+                </div>
+                <button class="product-details__gallery-nav product-details__gallery-nav--prev" aria-label="前の画像へ">
+                  <img src="./assets/img/product-details__arrow-left.png" alt="◁">
+                </button>
+                <button class="product-details__gallery-nav product-details__gallery-nav--next" aria-label="次の画像へ">
+                  <img src="./assets/img/product-details__arrow-right.png" alt="▷">
+                </button>
+              </div>
+              <div class="product-details__thumbnails swiper product-details__thumb-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main1.png" alt="サムネイル1"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main2.png" alt="サムネイル2"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main3.png" alt="サムネイル3"></div>
+                  <div class="swiper-slide"><img src="./assets/img/product-details__main4.png" alt="サムネイル4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="product-details__info">
+              <h3 class="product-details__catch-copy">日々たまる足腰の重だるさに</h3>
+              <h3 class="product-details__title">ELECOM Healthcare リフレッシュビート</h3>
+              <p class="product-details__description">
+                振動×3種のアタッチメント×自由な使い方で,<br>
+                ふくらはぎ・太もも・骨盤まわりを効率的にケア。<br>
+                むくみや疲労がたまりやすい足腰を、自宅で手軽に本格リフレッシュ。<br>
+                毎日の"ながら時間"が、軽やかな体をつくる新習慣に変わります。
+              </p>
+              <div class="product-details__discount">
+                <span class="product-details__discount-tag">10%<span class="product-details__discount-tag-per">OFF</span></span>
+              </div>
+              <div class="product-details__price">
+                <span class="product-details__price--original">¥3,575</span>
+                <span class="product-details__price--final"><img src="./assets/img/vector.png" alt="" class="product-details__price--vector"> ¥1,608 </span><span class="product-details__price--tax">(税込)</span>
+              </div>
+              <a href="https://shop.elecom.co.jp/category/HCARE/4549550366632.html" class="product-details__button">
+                <img src="./assets/img/cart.png" alt="カートアイコン" class="product-details__cart">
+                購入
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div class="product-info">
+          <div class="product-info__container">
+            <div class="product-info__title">
+              <h3>PRODUCT INFO</h3>
+              <p>商品情報</p>
+            </div>
+            <div class="product-info__cards">
+              <a href="#health-care" class="product-info__card">
+                <img src="./assets/img/product-info__card1.png" alt="ケアについて">
+                <div class="product-info__card-label">
+                  <span>ケアについて<br>∨</span>
+                </div>
+              </a>
+              <a href="#product-feature" class="product-info__card">
+                <img src="./assets/img/product-info__card2.png" alt="製品の特徴">
+                <div class="product-info__card-label">
+                  <span>製品の特徴<br>∨</span>
+                </div>
+              </a>
+              <a href="#expert-endorsement" class="product-info__card">
+                <img src="./assets/img/product-info__card3.png" alt="重要性">
+                <div class="product-info__card-label">
+                  <span>揺らす重要性<br>∨</span>
+                </div>
+              </a>
+              <a href="#users-voice" class="product-info__card">
+                <img src="./assets/img/product-info__card4.png" alt="利用者の声">
+                <div class="product-info__card-label">
+                  <span>利用者の声<br>∨</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--gray-200">
+        <div class="trouble">
+          <div class="trouble__container">
+            <h2 class="trouble__title">お疲れの毎日で、こんなお悩みありませんか？</h2>
+            <div class="trouble__contents">
+              <div class="trouble__lists">
+                <ul class="trouble__list">
+                  <li>夕方になると足がパンパン…</li>
+                  <li>デスクワークの後、腰が重い…</li>
+                  <li>疲れた後の集中力も不安定…</li>
+                </ul>
+                <ul class="trouble__list">
+                  <li>寝てもなんだか疲れが取れない…</li>
+                  <li>翌日まで足が重い…</li>
+                </ul>
+              </div>
+              <div class="trouble__images">
+                <img src="./assets/img/trouble__image1.png" alt="悩みのイメージ1">
+                <img src="./assets/img/trouble__image2.png" alt="悩みのイメージ2">
+                <img src="./assets/img/trouble__image3.png" alt="悩みのイメージ3">
+                <img src="./assets/img/trouble__image4.png" alt="悩みのイメージ4">
+                <img src="./assets/img/trouble__image5.png" alt="悩みのイメージ5">
+              </div>
+              <div class="trouble__neglect">
+                <p class="trouble__neglect-title">放置すると・・・</p>
+                <ul class="trouble__neglect-list">
+                  <li>血行不良</li>
+                  <li>筋肉の硬直</li>
+                  <li>柔軟性の低下</li>
+                  <li>腰痛や膝痛の悪化</li>
+                </ul>
+              </div>
+            </div>
+            <p class="trouble__desc">
+              <span class="medium-text_36px">ケアを怠りがちな部位に<br></span>
+              <span class="large-text_48px">血液循環を促す強い刺激で<br></span>
+              <span class="large-text_48px">本格的なリフレッシュが必要！</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div id="health-care" class="feature-showcase">
+          <div class="feature-showcase__container">
+            <div class="feature-showcase__header">
+              <div class="feature-showcase__sub-heading">自宅で簡単に</div>
+              <div class="feature-showcase__heading">
+                脚<span class="feature-showcase__medium">と</span>腰<span class="feature-showcase__medium">を</span>まとめてケア<span class="feature-showcase__medium">するには</span>
+              </div>
+              <img src="./assets/img/feature-showcase__refresh-beat.png" alt="REFRESH BEAT" class="feature-showcase__refresh-beat">
+            </div>
+            <div class="feature-showcase__point">
+              <div class="feature-showcase__text">
+                <h2><span class="feature-showcase__text-large">
+                    足を乗せる</span><br>
+                  だけだから</h2>
+                <h2>生活の中でながらケア。</h2>
+                <p>裸足でもそのまま足を乗せるだけで使用する<br>ことができます。</p>
+              </div>
+              <div class="feature-showcase__image">
+                <img src="./assets/img/feature-showcase__image-main1.png" alt="椅子に座りながらリフレッシュビートに足を乗せている様子" class="feature-showcase__first-image">
+              </div>
+            </div>
+            <div class="feature-showcase__point feature-showcase__point--reverse">
+              <div class="feature-showcase__text">
+                <h2>
+                  これ一台で<br>
+                  <span class="feature-showcase__text-large">脚も腰も</span></h2>
+                <h2>気になる箇所をスッキリ。</h2>
+                <p>
+                  複数のアタッチメントも使い分けることで、<br>
+                  それぞれのお悩みをこれ一台で解決できます。
+                </p>
+              </div>
+              <div class="feature-showcase__image">
+                <img src="./assets/img/feature-showcase__image-main2.png" alt="床に座ってふくらはぎをケアしている様子" class="feature-showcase__first-image" id="mainImage">
+              </div>
+            </div>
+            <div class="feature-showcase__cta">
+              <a href="https://shop.elecom.co.jp/category/HCARE/4549550366632.html" class="feature-showcase__cta-button">
+                <img src="./assets/img/cart.png" alt="カートアイコン" class="feature-showcase__cart"> ご購入はこちら
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--gray-300">
+        <div class="howto">
+          <div class="howto__container">
+            <h2 class="howto__title">HOW TO</h2>
+            <p class="howto__subtitle">使い方動画</p>
+            <div class="howto__content">
+              <div class="howto__player">
+                <iframe id="howto-video" src="https://www.youtube.com/embed/jTF3IQuw1YA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+              </div>
+              <div class="howto__link-list">
+                <a href="#" class="howto__link-item" data-video-id="jTF3IQuw1YA">
+                  <span>リフレッシュビートの使い方</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="xcleB6tYYjU">
+                  <span>脚の裏・脚全体のケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="vkhi2etczmc">
+                  <span>ふくらはぎ・膝から下のケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="5dcV-fhiNME">
+                  <span>美脚ケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="XGx_hUHleQc">
+                  <span>太もものケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="xX-4YHUEAzo">
+                  <span>腰まわりのケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="yY7uDX5yLq8">
+                  <span>背中のケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+                <a href="#" class="howto__link-item" data-video-id="OANhqmthKO8">
+                  <span>肩のケア</span><img src="./assets/img/vector_video.png" alt="" class="howto__play-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div id="product-feature" class="product-feature">
+          <div class="product-feature__container">
+            <div class="product-feature__header">
+              <p class="product-feature__sub-heading">ELECOM Healthcare</p>
+              <h2 class="product-feature__title">リフレッシュビートの特徴</h2>
+            </div>
+            <div class="product-feature__point">
+              <div class="product-feature__image">
+                <img src="./assets/img/product-feature__main.png" alt="3種類のアタッチメントと製品本体">
+              </div>
+              <div class="product-feature__text">
+                <h3 class="product-feature__headline">3種のアタッチメントで幅広くケア</h3>
+                <div class="product-feature__carousel swiper product-feature__carousel--attachment" id="attachment-carousel">
+                  <div class="swiper-wrapper product-feature__carousel-wrapper">
+                    <img src="./assets/img/product-feature__attachment1.png" alt="使用例1" class="swiper-slide product-feature__carousel-slide">
+                    <img src="./assets/img/product-feature__attachment2.png" alt="使用例1" class="swiper-slide product-feature__carousel-slide">
+                    <img src="./assets/img/product-feature__attachment3.png" alt="使用例1" class="swiper-slide product-feature__carousel-slide">
+                  </div>
+                  <div class="product-feature__carousel-controls">
+                    <div class="product-feature__carousel-nav">
+                      <button class="swiper-button-prev product-feature__carousel-button product-feature__carousel-button--prev"
+                              type="button" aria-label="前の画像へ"></button>
+                      <button class="swiper-button-next product-feature__carousel-button product-feature__carousel-button--next"
+                              type="button" aria-label="次の画像へ"></button>
+                    </div>
+                    <div class="swiper-pagination product-feature__carousel-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="promo-slider" id="mode-carousel">
+              <div class="swiper promo-slider__carousel">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide promo-slider__slide">
+                    <img src="./assets/img/promo-slider__slide1.png" alt="モード1のイメージ" class="promo-slider__slide-image">
+                  </div>
+                  <div class="swiper-slide promo-slider__slide">
+                    <img src="./assets/img/promo-slider__slide2.png" alt="モード2のイメージ" class="promo-slider__slide-image">
+                  </div>
+                </div>
+              </div>
+              <div class="promo-slider__controls">
+                <div class="promo-slider__nav">
+                  <button class="swiper-button-prev promo-slider__nav-button promo-slider__nav-button--prev"
+                          type="button" aria-label="前のスライドへ"></button>
+                  <button class="swiper-button-next promo-slider__nav-button promo-slider__nav-button--next"
+                          type="button" aria-label="次のスライドへ"></button>
+                </div>
+                <div class="swiper-pagination promo-slider__pagination"></div>
+              </div>
+            </div>
+
+            <div class="product-feature__cta">
+              <a href="https://shop.elecom.co.jp/category/HCARE/4549550366632.html" class="product-feature__cta-button">
+                <img src="./assets/img/cart.png" alt="カートアイコン" class="product-feature__cart"> ご購入はこちら
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--gray-200">
+        <div id="expert-endorsement" class="expert-endorsement">
+          <div class="expert-endorsement__container">
+            <div class="expert-endorsement__content">
+              <div class="expert-endorsement__text">
+                <h2>筋肉全体が揺れる<br>心地よい感覚をお楽しみください。</h2>
+                <p>ソファに座りながら、ベッドに腰掛けながら、<br>椅子を使いながら、足腰をはじめとして肩甲骨まで<br>お悩みの箇所をこれ一台で網羅的にケアできます。</p>
+                <p class="expert-endorsement__disclaimer">※弊社から有吉先⽣に依頼をし、頂いたコメントを編集して掲載しています。</p>
+              </div>
+              <div class="expert-endorsement__profile">
+                <div class="expert-endorsement__profile-left">
+                  <img src="./assets/img/user-voice__image00.png" alt="有吉 与志恵 氏" class="expert-endorsement__photo">
+                  <div class="expert-endorsement__user-wrapper">
+                    <div class="expert-endorsement__title">一般社団法人<br>日本コンディショニング協会<br>会長</div>
+                    <div class="expert-endorsement__name">有吉 与志恵 <small>氏</small></div>
+                  </div>
+                </div>
+                <div class="expert-endorsement__profile-right">
+                  <p>日本体育大学卒業。</p>
+                  <p>元陸上スプリンターの経験を活かし、<br>「鍛える」ではなく「整える」ことを重視した</p>
+                  <p>独自のコンディショニングメソッドを構築。</p>
+                  <p>2009年に一般社団法人<br>日本コンディショニング協会（NCA）を設立し、</p>
+                  <p>会長に就任。</p>
+                  <p>トップアスリートから高齢者まで、<br>幅広い層に向けた身体づくりの指導と、</p>
+                  <p>セルフコンディショニングの普及活動を行っている。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div class="muscle-care">
+          <div class="muscle-care__container">
+            <div class="muscle-care__header">
+              <h2>強い振動で筋肉に効果的にアプローチ</h2>
+              <p>
+                足の裏、太もも、ふくらはぎの筋肉に響き、<br>
+                下半身の重だるさを一気に解消。
+              </p>
+            </div>
+            <div class="muscle-care__block">
+              <div class="muscle-care__image">
+                <img src="./assets/img/muscle-care__main.png" alt="足の筋肉図">
+              </div>
+              <div class="muscle-care__list">
+                <div class="muscle-care__item">
+                  <div class="muscle-care__label">ふくらはぎ</div>
+                  <div class="muscle-care__desc">
+                    歩いたり、ジャンプしたり、足を使う運動に必須の筋肉。<br>
+                    地面を蹴る力を生み出す「バネ」のような役割。<br>
+                    重力に逆らって体を持ち上げたり、立った姿勢を安定させる。
+                  </div>
+                </div>
+                <div class="muscle-care__item">
+                  <div class="muscle-care__label">ふともも</div>
+                  <div class="muscle-care__desc">
+                    歩いたり、ジャンプしたり、足を使う運動に必須の筋肉。<br>
+                    股関節や膝を動かし、足を前に出す・体を支える・階段を上るなど、<br>
+                    ほぼすべての下半身運動に関与。立ち上がる・座るなど日常動作でも不可欠。
+                  </div>
+                </div>
+                <div class="muscle-care__item">
+                  <div class="muscle-care__label">あしうら</div>
+                  <div class="muscle-care__desc">
+                    歩いたり、ジャンプしたり、足を使う運動に必須の筋肉。<br>
+                    足のアーチを保ち、体重を吸収・分散するクッションの役割。<br>
+                    歩行時のバランスや地面からの衝撃を調整し、正しい姿勢を支える土台となる。
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--gray-200">
+        <div class="product">
+          <div class="product__container">
+            <h2 class="product__title">乗せるだけ・押し当てるだけ<br>
+              脚から腰まで<span class="product__title-bold">"ながら"</span>でリフレッシュ
+            </h2>
+            <p class="product__description">3つのアタッチメントで、どの部位もカバー</p>
+            <div class="product__gallary-container">
+              <div class="product__gallery">
+                <div class="product__main-image-container swiper product__main-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb1.png" alt="リフレッシュアイテム本体"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb2.png" alt="サムネイル2"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb3.png" alt="サムネイル3"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb4.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb5.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb6.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb7.png" alt="サムネイル4"></div>
+                  </div>
+                  <button class="product__gallery-nav product__gallery-nav--prev" aria-label="前の画像へ">
+                    <img src="./assets/img/product-details__arrow-left.png" alt="">
+                  </button>
+                  <button class="product__gallery-nav product__gallery-nav--next" aria-label="次の画像へ">
+                    <img src="./assets/img/product-details__arrow-right.png" alt="">
+                  </button>
+                </div>
+                <div class="product__thumbnails swiper product__thumb-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb1.png" alt="サムネイル1"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb2.png" alt="サムネイル2"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb3.png" alt="サムネイル3"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb4.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb5.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb6.png" alt="サムネイル4"></div>
+                    <div class="swiper-slide"><img src="./assets/img/product__thumb7.png" alt="サムネイル4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://shop.elecom.co.jp/category/HCARE/4549550366632.html" class="product__purchase-button"><img src="./assets/img/cart.png" alt="カートアイコン" class="product__cart">
+              ご購入はこちら
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div id="users-voice" class="user-voice">
+          <div class="user-voice__container">
+            <h2 class="user-voice__title">USER'S VOICE</h2>
+            <p class="user-voice__subtitle">商品情報</p>
+            <div class="swiper user-voice__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">在宅ワーク・自分用に</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image01.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">在宅ワーカー「サトシさん」</p>
+                    <h3 class="user-voice__card-title">毎日PC作業で疲れた目と<br><span class="user-voice__card-title-highlight">肩に心地よい刺激！</span></h3>
+                    <p class="user-voice__text">
+                      ボール型なので押しやすく、短時間でリフレッシュできます。<br>
+                      デスクの引き出しにもすっぽり収まるほどコンパクトなのも嬉しいです。<br>
+                      連続使用後のバッテリー持ちも悪くなく、長持ちします。<br>
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">撮影後の肌ケアに</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image02.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">美容意識の高い「ユカさん」</p>
+                    <h3 class="user-voice__card-title">微振動が首や肩に効き<br><span class="user-voice__card-title-highlight">むくみにもやさしい！</span></h3>
+                    <p class="user-voice__text">
+                      冷たすぎず温かすぎない振動で、首や肩の凝りがスッと和らぎます。<br>
+                      手のひらにすっぽり収まり、撮影後の肌のむくみにも使えるのが嬉しい。<br>
+                      まるでプロのスパのようで、育児中のママさんにもおすすめです。
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">丸い形が気に入った</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image03.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">ゲームが大好き「タケシくん」</p>
+                    <h3 class="user-voice__card-title">ゲーム感覚で楽しく使える<br><span class="user-voice__card-title-highlight">見た目もカワイイ！</span></h3>
+                    <p class="user-voice__text">
+                      丸っこいデザインが気に入っていて、ゲームのコントローラーみたい。<br>
+                      勉強の合間に肩をほぐすのにちょうど良いです。<br>
+                      もう少し強い振動があれば、星５だったかもしれません。
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">毎日ちょっとずつ快適</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image04.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">健康志向のシニア「絹代さん」</p>
+                    <h3 class="user-voice__card-title">電池を入れてスイッチオン<br><span class="user-voice__card-title-highlight">簡単操作で心地よく！</span></h3>
+                    <p class="user-voice__text">
+                      年を取ると肩こりが辛いですが、これなら優しい振動で使いやすい。<br>
+                      テレビを見ながらでも気軽にケアでき、高級な機械は必要ありません。<br>
+                      毎日少しずつ使うのが楽しみになっていて、本当に助かっています。<br>
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">制作の合間に大活躍</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image05.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">クリエイター「ナオミさん」</p>
+                    <h3 class="user-voice__card-title">デスクワークの<br><span class="user-voice__card-title-highlight">むくみ対策にぴったり！</span></h3>
+                    <p class="user-voice__text">
+                      長時間のペンタブ操作で腕や肩がガチガチになるので、これは神アイテムです！<br>
+                      ボール型だから、PCの横に置いてパッと押すだけで疲れが飛んでいく感じ。<br>
+                      充電式ならもっと◎ですが、今のバッテリータイプでも十分実用的。
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">遠征にも持っていく</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image06.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">陸上選手「ユウタさん」</p>
+                    <h3 class="user-voice__card-title">筋膜ケアや疲労回復に<br><span class="user-voice__card-title-highlight">ピンポイントで効く！</span></h3>
+                    <p class="user-voice__text">
+                      トレーニング後の筋膜ケアに最高で、肩や腕にもピンポイントで届きます。<br>
+                      遠征にも持ち運びやすく荷物にならず、リラックスタイムが快適になりました。<br>
+                      スポーツ仲間にも勧めたい本気のアイテムです。
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide user-voice__slide">
+                  <div class="user-voice__card">
+                    <span class="user-voice__tag">呼吸と合わせて整う</span>
+                    <div class="user-voice__image-wrapper">
+                      <img src="./assets/img/user-voice__image07.png" alt="ユーザーの顔写真" class="user-voice__image">
+                    </div>
+                    <p class="user-voice__user">ヨガインストラクター「ミホさん」</p>
+                    <h3 class="user-voice__card-title">ポーズ後や合間に最適<br><span class="user-voice__card-title-highlight">心身ともにリセット！</span></h3>
+                    <p class="user-voice__text">
+                      ヨガ後のリセットや指導の合間に短時間で整えられて助かります。<br>
+                      呼吸に合わせて使うと、自律神経にも作用するようで心地よいです。<br>
+                      音が静かになれば、さらに使いやすいと思います。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <p class="user-voice__note">
+                ※個人の感想であり、効果効能を保証するものではありません。掲載している口コミは当社にて選定しております。
+              </p>
+              <div class="user-voice__swiper-pagination user-voice__pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--bg-white">
+        <div class="faq">
+          <h2 class="faq__title">FAQ</h2>
+          <p class="faq__subtitle">よくあるご質問</p>
+          <details class="faq__item" open>
+            <summary>Title</summary>
+            <div class="faq__answer">
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+            </div>
+          </details>
+          <details class="faq__item">
+            <summary>Title</summary>
+            <div class="faq__answer">
+              <p>ここに回答が入ります。</p>
+            </div>
+          </details>
+          <details class="faq__item">
+            <summary>Title</summary>
+            <div class="faq__answer">
+              <p>ここに回答が入ります。</p>
+            </div>
+          </details>
+          <details class="faq__item">
+            <summary>Title</summary>
+            <div class="faq__answer">
+              <p>ここに回答が入ります。</p>
+            </div>
+          </details>
+          <details class="faq__item">
+            <summary>Title</summary>
+            <div class="faq__answer">
+              <p>ここに回答が入ります。</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__social">
+      <a href="#" class="footer__icon"><img src="./assets/img/footer__instagram-icon.png" alt="Instagram"></a>
+      <a href="#" class="footer__icon"><img src="./assets/img/footer__line-icon.png" alt="LINE"></a>
+      <a href="#" class="footer__icon"><img src="./assets/img/footer__x-icon.png" alt="X"></a>
+    </div>
+    <hr class="footer__divider">
+    <div class="footer__logo">
+      <img src="./assets/img/elecom-healthcare__logo.png" alt="ELECOM Healthcare">
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
