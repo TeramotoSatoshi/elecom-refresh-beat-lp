@@ -2504,7 +2504,7 @@ p.expert-endorsement__disclaimer {
   }
 
   .trouble__title {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 0.4;
     letter-spacing: 1px;
   }
@@ -2525,7 +2525,7 @@ p.expert-endorsement__disclaimer {
   }
 
   .trouble__list li {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     line-height: 1.4;
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
@@ -2543,11 +2543,11 @@ p.expert-endorsement__disclaimer {
   }
 
   .trouble__neglect-title {
-    font-size: 0.93rem;
+    font-size: 0.9rem;
   }
 
   .trouble__neglect-list li {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .trouble__desc {
@@ -2556,12 +2556,12 @@ p.expert-endorsement__disclaimer {
   }
 
   .trouble__desc .medium-text_36px {
-    font-size: 0.75rem;
+    font-size: 1.1rem;
     letter-spacing: 4px;
   }
 
   .trouble__desc .large-text_48px {
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 5px;
   }
 
@@ -2847,7 +2847,7 @@ p.expert-endorsement__disclaimer {
 
   .expert-endorsement__text p {
     color: var(--black);
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     line-height: 1.7;
     letter-spacing: 1px;
   }
@@ -2867,11 +2867,11 @@ p.expert-endorsement__disclaimer {
   }
 
   .expert-endorsement__title {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .expert-endorsement__name {
-    font-size: 0.68rem;
+    font-size: 0.88rem;
   }
 
   .expert-endorsement__profile-left {
@@ -2907,7 +2907,7 @@ p.expert-endorsement__disclaimer {
   }
 
   .expert-endorsement__profile-right p {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -2937,7 +2937,7 @@ p.expert-endorsement__disclaimer {
 
   .muscle-care__header p {
     color: var(--black);
-    font-size: 0.56rem;
+    font-size: 0.86rem;
     line-height: 1.6;
     letter-spacing: 0.6px;
   }
@@ -2987,7 +2987,7 @@ p.expert-endorsement__disclaimer {
 
   .muscle-care__desc {
     padding: 0;
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     text-align: left;
   }
 
@@ -2998,17 +2998,17 @@ p.expert-endorsement__disclaimer {
   }
 
   .product__title {
-    font-size: 1rem;
+    font-size: 1.18rem;
     letter-spacing: 1px;
-    line-height: 2.48;
+    line-height: 2.18;
     padding: 0;
     margin: 0;
   }
 
   .product__description {
-    font-size: 0.68rem;
-    line-height: 3.18;
-    letter-spacing: 0.25em;
+    font-size: 0.88rem;
+    line-height: 2.38;
+    letter-spacing: 0.05em;
     margin-bottom: 30px;
   }
 
